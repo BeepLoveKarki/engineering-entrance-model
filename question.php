@@ -2,7 +2,7 @@
 <html>
 <head>
 <?php 
-  session_start();
+   session_start();
   if(!isset($_SESSION['user'])||!isset($_SESSION['symbol'])) 
   { 
    header("Location:http://localhost/entrance/welcome.php");
